@@ -1,0 +1,8 @@
+@import '{{ site.theme }}';
+
+/* --- Custom overrides: --- */
+
+/* Hide the “Follow me on GitHub” button */
+header .h2 {
+  display: none !important;
+}
