@@ -9,11 +9,10 @@ title: Available Commands
 
 # Bot Commands
 
-- **`!commands`**\
-  _Alias_: (`!command`, `!cmd`, `!help`)\
+- **`!commands`** (`!command`, `!cmd`, `!help`) \
   Show link to this page with commands list.
 
-- **`!nickname` <new_nickname>**\
-  _Alias_: (`!nick`)\
-  _Example:_ `!nickname bananaman`\
+- **`!nickname`** <new*nickname> (`!nick`) \
+  \_Example:* `!nickname tanuki` \
+  _→ The commenter's nickname will be `tanuki`_\
   Update user's nickname in Chibi's memory.
