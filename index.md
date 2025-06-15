@@ -9,10 +9,10 @@ title: Available Commands
 
 # Bot Commands
 
-- **`!commands`** (`!command`, `!cmd`, `!help`) \
+- **`!commands`** (`!command`, `!cmd`, `!help`)  
   Show link to this page with commands list.
 
-- **`!nickname`** <new_nickname> (`!nick`) \
-  *Example:* `!nickname tanuki` \
-  *→ The commenter's nickname will be `tanuki`* \
-  Update user's nickname in Chibi's memory.
+- **`!nickname** <new_nickname>` (`!nick`)  
+  *Example:* `!nickname tanuki` → The commenter's nickname will be `tanuki`.  
+  Update user's nickname in Chibi's memory.  
+  
