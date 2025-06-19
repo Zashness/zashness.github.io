@@ -10,9 +10,23 @@ title: Available Commands
 # Bot Commands
 
 - **`!commands`** (`!command`, `!cmd`, `!help`)  
-  Show link to this page with commands list.
+  Show link to this page with commands list.  
+    
+  このコマンド一覧ページへのリンクを表示。  
 
 - **`!nickname <new_nickname>`** (`!nick`)  
-  *Example:* `!nickname tanuki` → The commenter's nickname will be `tanuki`.  
   Update user's nickname in Chibi's memory.  
-  
+  *Example:* `!nickname tanuki` → The commenter's nickname will be `tanuki`.  
+    
+  Chibiがあなたの"呼び名・あだ名"を覚えるよ～  
+  例：`!nickname tanuki` → Chibiが以降コメント投稿者を `tanuki` と認識するよ  
+
+- **`!emote <emote_string> <EMOTE_description>`** (`!nick`)  
+  Register an emote to help Chibi understand them. Chibi only "sees" the string representation, please help her by explaining what an emote means.  
+  Especially helpful with custom emotes.  
+  *Examples:*
+  - `!emote KEKW EMOTE_laugh`
+  - `!emote LUL EMOTE_laugh`
+  - `!emote PogChamp EMOTE_excited`
+    
+  Chibiにはスタンプは文字列としてしか認識できないので、Chibiにスタンプの説明をしてね  
