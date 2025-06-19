@@ -21,12 +21,11 @@ title: Available Commands
   Chibiがあなたの"呼び名・あだ名"を覚えるよ～  
   例：`!nickname tanuki` → Chibiが以降コメント投稿者を `tanuki` と認識するよ  
 
-- **`!emote <emote_string> <EMOTE_description>`** (`!nick`)  
+- **`!emote <EMOTE> <emote_description>`** (`!nick`)  
   Register an emote to help Chibi understand them. Chibi only "sees" the string representation, please help her by explaining what an emote means.  
-  Especially helpful with custom emotes.  
-  *Examples:*
-  - `!emote KEKW EMOTE_laugh`
-  - `!emote LUL EMOTE_laugh`
-  - `!emote PogChamp EMOTE_excited`
+  Especially helpful with custom channel emotes.  
+  *Examples:*  
+  > !emote ![LUL emote](https://static-cdn.jtvnw.net/emoticons/v2/425618/static/light/1.0) laugh  
+  > !emote ![PogChamp emote](https://static-cdn.jtvnw.net/emoticons/v2/305954156/default/dark/1.0) excited  
     
   Chibiにはスタンプは文字列としてしか認識できないので、Chibiにスタンプの説明をしてね  
