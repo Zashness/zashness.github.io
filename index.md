@@ -35,3 +35,10 @@ title: Available Commands
 
 - **`!rom`**  
   !lurk の日本語版。ROMる時に使えるらしい、知らんけど、どうぞ
+
+## Additional Commands for Mods
+
+- **`!instructions`**  
+  Declare additional instructions for Chibi. Only effective during the session, it does not persist when Chibi reboots/restarts.  
+
+  *Example:* `!instructions Only respond in Japanese`
