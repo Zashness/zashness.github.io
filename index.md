@@ -22,7 +22,7 @@ title: Available Commands
   例：`!nickname tanuki` → Chibiが以降コメント投稿者を `tanuki` と認識するよ  
 
 - **`!emote <EMOTE> <emote_description>`** (`!nick`)  
-  Register an emote to help Chibi understand them. Chibi only "sees" the string representation, please help her by explaining what an emote means.  
+  Register an emote to help Chibi understand them. Chibi only "sees" the string representation, please help her by explaining what a particular emote means.  
   Especially helpful with custom channel emotes.  
   *Examples:*  
   > !emote ![LUL emote](https://static-cdn.jtvnw.net/emoticons/v2/425618/static/light/1.0) laugh  
