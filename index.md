@@ -29,3 +29,9 @@ title: Available Commands
   > !emote ![PogChamp emote](https://static-cdn.jtvnw.net/emoticons/v2/305954156/default/dark/1.0) excited  
     
   Chibiにはスタンプは文字列としてしか認識できないので、Chibiにスタンプの説明をしてね  
+
+- **`!lurk`**  
+  When you lurk, I guess. I heard people like this. (I don't understand...Is it modern?)  
+
+- **`!rom`**  
+  !lurk の日本語版。ROMる時に使えるらしい、知らんけど、どうぞ
