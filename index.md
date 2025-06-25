@@ -10,7 +10,7 @@ title: Available Commands
 # Bot Commands
 
 - **`!commands`** (`!command`, `!cmd`, `!help`)  
-  Show link to this page with commands list.  
+  Show a link to this page with the commands list.  
     
   このコマンド一覧ページへのリンクを表示。  
 
@@ -21,6 +21,42 @@ title: Available Commands
   Chibiがあなたの"呼び名・あだ名"を覚えるよ～  
   例：`!nickname tanuki` → Chibiが以降コメント投稿者を `tanuki` と認識するよ  
 
+- **`!boost [<topic>]`**  
+  Cheer for Zash in English. Optional \<topic\>.  
+  *Example:* `!boost` → Cheers for Zash.  
+  *Example:* `!boost Geoguessr duels` → Cheers for Zash about "Geoguessr duels".
+
+- **`!boostme [<topic>]`**  
+  Cheer for the commenter in English. Optional \<topic\>.  
+  *Example:* `!boostme` → Cheers for you.  
+  *Example:* `!boostme full marathon` → Cheers for you about "full marathon".
+
+- **`!boostuser <username> [<topic>]`** (`!boost_user`)  
+  Cheer for a specified user in English. \<username\> required, \<topic\> optional.  
+  *Example:* `!boostuser AkkirOrihsam` → Cheers for AkkirOrihsam.  
+  *Example:* `!boostuser CoolCat42 job interview` → Cheers for CoolCat42 about "job interview."
+
+- **`!ouen [<topic>]`** (`!ganbare`)  
+  ザッシュを日本語で応援するよ。\<topic\>は任意。  
+  *Example:* `!ouen` → ザッシュを応援。  
+  *Example:* `!ouen 決勝戦` → ザッシュの決勝戦を応援するよ。
+
+- **`!ouenkure [<topic>]`** (`!ouenshite`)  
+  コメント投稿者を日本語で応援するよ。\<topic\>は任意。  
+  *Example:*  `!ouenkure` → あなたを応援。  
+  *Example:* `!ouenkure テスト勉強` → あなたのテスト勉の応援するよ。
+
+- **`!ouenuser <username> [<topic>]`** (`!ouen_user`)  
+  指定したユーザーを日本語で応援するよ。\<username\>必須、\<topic\>は任意。  
+  *Example:* `!ouenuser キューさん` → キューさんを応援するよ。  
+  *Example:* `!ouenuser すずめさん 仕事の締め切り` → 「仕事の締め切り」までがんばれるようにすずめさんを応援するよ。  
+
+- **`!lurk`**  
+  When you lurk, I guess. I heard people like this. (I don't understand...Is it modern?)  
+
+- **`!rom`**  
+  !lurk の日本語版。ROMる時に使えるらしい、知らんけど、どうぞ
+
 - **`!emote <EMOTE> <emote_description>`** (`!nick`)  
   Register an emote to help Chibi understand them. Chibi only "sees" the string representation, please help her by explaining what a particular emote means.  
   Especially helpful with custom channel emotes.  
@@ -30,15 +66,15 @@ title: Available Commands
     
   Chibiにはスタンプは文字列としてしか認識できないので、Chibiにスタンプの説明をしてね  
 
-- **`!lurk`**  
-  When you lurk, I guess. I heard people like this. (I don't understand...Is it modern?)  
-
-- **`!rom`**  
-  !lurk の日本語版。ROMる時に使えるらしい、知らんけど、どうぞ
-
 ## Additional Commands for Mods
 
 - **`!instructions`**  
   Declare additional instructions for Chibi. Only effective during the session, it does not persist when Chibi reboots/restarts.  
 
   *Example:* `!instructions Only respond in Japanese`
+
+- **`!othernickname`** (`!othernick`)
+  Set a nickname for a specified user.
+
+  > !othernickname <username> <new_nickname>
+  > !othernickname 9dmg_pk キューさん
