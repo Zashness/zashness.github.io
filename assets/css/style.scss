@@ -9,3 +9,25 @@
 header a.button {
   display: none !important;
 }
+
+/* Support for dark mode */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212 !important;
+    color: #e0e0e0 !important;
+  }
+  header,
+  nav,
+  footer {
+    background-color: #1e1e1e !important;
+  }
+  a {
+    color: #80cbc4 !important;
+  }
+  // code blocks
+  pre,
+  code {
+    background-color: #1e1e1e !important;
+    color: #cfd8dc !important;
+  }
+}
