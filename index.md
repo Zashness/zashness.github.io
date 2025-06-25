@@ -44,7 +44,7 @@ title: Available Commands
 - **`!ouenkure [<topic>]`** (`!ouenshite`)  
   コメント投稿者を日本語で応援するよ。\<topic\>は任意。  
   *Example:*  `!ouenkure` → あなたを応援。  
-  *Example:* `!ouenkure テスト勉強` → あなたのテスト勉の応援するよ。
+  *Example:* `!ouenkure テスト勉強` → あなたのテスト勉強の応援するよ。
 
 - **`!ouenuser <username> [<topic>]`** (`!ouen_user`)  
   指定したユーザーを日本語で応援するよ。\<username\>必須、\<topic\>は任意。  
