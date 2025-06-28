@@ -21,35 +21,22 @@ title: Available Commands
   Chibiがあなたの"呼び名・あだ名"を覚えるよ～  
   例：`!nickname tanuki` → Chibiが以降コメント投稿者を `tanuki` と認識するよ  
 
-- **`!boost [<topic>]`**  
-  Cheer for Zash in English. Optional \<topic\>.  
+- **`!boost <name> [/ <topic>]`** (`!cheer`)  
+  Cheer for a user in English. Optional \<topic\>.  
+  *Example:* `!boost AkkirOrihsam` → Cheers for AkkirOrihsam.  
+  *Example:* `!boost ShinraFN / Geoguessr duels` → Cheers for ShinraFN about "Geoguessr duels".  
+
+  Defaults \<name\> to Zash if \<name\> is missing.  
   *Example:* `!boost` → Cheers for Zash.  
-  *Example:* `!boost Geoguessr duels` → Cheers for Zash about "Geoguessr duels".
 
-- **`!boostme [<topic>]`**  
-  Cheer for the commenter in English. Optional \<topic\>.  
-  *Example:* `!boostme` → Cheers for you.  
-  *Example:* `!boostme full marathon` → Cheers for you about "full marathon".
+- **`!ouen <name> [/ <topic>]`** (`!ganbare`)  
+  指定したユーザーを日本語で応援するよ。\<name\>推奨、\<topic\>は任意。  
+  *Example:* `!ouen キューさん` → キューさんを応援するよ。  
+  *Example:* `!ouen すずめさん / 仕事の締め切り` → 「仕事の締め切り」までがんばれるようにすずめさんを応援するよ。  
 
-- **`!boostuser <username> [<topic>]`** (`!boost_user`)  
-  Cheer for a specified user in English. \<username\> required, \<topic\> optional.  
-  *Example:* `!boostuser AkkirOrihsam` → Cheers for AkkirOrihsam.  
-  *Example:* `!boostuser CoolCat42 job interview` → Cheers for CoolCat42 about "job interview."
-
-- **`!ouen [<topic>]`** (`!ganbare`)  
-  ザッシュを日本語で応援するよ。\<topic\>は任意。  
+  \<name\>が無い場合はザッシュを応援。  
   *Example:* `!ouen` → ザッシュを応援。  
-  *Example:* `!ouen 決勝戦` → ザッシュの決勝戦を応援するよ。
-
-- **`!ouenkure [<topic>]`** (`!ouenshite`)  
-  コメント投稿者を日本語で応援するよ。\<topic\>は任意。  
-  *Example:*  `!ouenkure` → あなたを応援。  
-  *Example:* `!ouenkure テスト勉強` → あなたのテスト勉強の応援するよ。
-
-- **`!ouenuser <username> [<topic>]`** (`!ouen_user`)  
-  指定したユーザーを日本語で応援するよ。\<username\>必須、\<topic\>は任意。  
-  *Example:* `!ouenuser キューさん` → キューさんを応援するよ。  
-  *Example:* `!ouenuser すずめさん 仕事の締め切り` → 「仕事の締め切り」までがんばれるようにすずめさんを応援するよ。  
+  *Example:* `!ouen 決勝戦` → ザッシュの決勝戦を応援するよ。  
 
 - **`!lurk`**  
   When you lurk, I guess. I heard people like this. (I don't understand...Is it modern?)  
