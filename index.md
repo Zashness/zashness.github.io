@@ -21,13 +21,13 @@ title: Available Commands
   Chibiがあなたの"呼び名・あだ名"を覚えるよ～  
   例：`!nickname tanuki` → Chibiが以降コメント投稿者を `tanuki` と認識するよ  
 
-- **`!boost <name> [/ <topic>]`** (`!cheer`)  
+- **`!cheer <name> [/ <topic>]`** (`!boost`)  
   Cheer for a user in English. Optional \<topic\>.  
-  *Example:* `!boost AkkirOrihsam` → Cheers for AkkirOrihsam.  
-  *Example:* `!boost ShinraFN / Geoguessr duels` → Cheers for ShinraFN about "Geoguessr duels".  
+  *Example:* `!cheer AkkirOrihsam` → Cheers for AkkirOrihsam.  
+  *Example:* `!cheer ShinraFN / Geoguessr duels` → Cheers for ShinraFN about "Geoguessr duels".  
 
   Defaults \<name\> to Zash if \<name\> is missing.  
-  *Example:* `!boost` → Cheers for Zash.  
+  *Example:* `!cheer` → Cheers for Zash.  
 
 - **`!ouen <name> [/ <topic>]`** (`!ganbare`)  
   指定したユーザーを日本語で応援するよ。\<name\>推奨、\<topic\>は任意。  
